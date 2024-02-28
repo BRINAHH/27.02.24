@@ -1,6 +1,6 @@
 const sortear = () => {
     let nomes = ["Pocoyo","Elly","Pato","Loula","Sonequita","Soninho","Lagarta","Baleia","Octopus","Aliens"]
-    
+    //na linha acima esta atribuindo nomes 
     let h1Nome = document.getElementById("nome"); // o ponto e o metodo;
     
     let achouNumero = false; // o let e quando some e nao fica no servidor;
