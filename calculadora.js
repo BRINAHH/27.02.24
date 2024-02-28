@@ -6,4 +6,4 @@ const calcular = () => { // cantando o numero para calcular
 
     // o resultado do valor e igual ao numero do valor mais o numero do valor 2 
     resultado.value = parseInt(numero.value) + parseInt(numero2.value)
-}
+}//fechando bloco de const calcular
