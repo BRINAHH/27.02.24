@@ -15,38 +15,38 @@ const sortear = () => {
     }
     //Na linha abaixo vai acontecer um embaralhamento dos numeros assim os nomes que foram atribuidos pelo let vai ser correspondentes a posicoes que eles estao
     switch (numeroSorteado) {
-        case 0:// caso o numero 0 e sorteado
+        case 0:// posicao dos nomes que foram atribuidos
             h1Nome.innerText = nomes[numeroSorteado];
             break;
-        case 1:
+        case 1:// posicao dos nomes que foram atribuidos
             h1Nome.innerText = nomes[numeroSorteado];
             break;
-        case 2:
+        case 2:// posicao dos nomes que foram atribuidos
             h1Nome.innerText = nomes[numeroSorteado];
             break;
-        case 3:
+        case 3:// posicao dos nomes que foram atribuidos
             h1Nome.innerText = nomes[numeroSorteado];
             break;
-        case 4:
+        case 4:// posicao dos nomes que foram atribuidos
             h1Nome.innerText = nomes[numeroSorteado];
             break;
-        case 5:
+        case 5:// posicao dos nomes que foram atribuidos
             h1Nome.innerText = nomes[numeroSorteado];
             break;
-        case 6:
+        case 6:// posicao dos nomes que foram atribuidos
             h1Nome.innerText = nomes[numeroSorteado];
             break;
-        case 7:
+        case 7:// posicao dos nomes que foram atribuidos
             h1Nome.innerText = nomes[numeroSorteado];
             break;
-        case 8:
+        case 8:// posicao dos nomes que foram atribuidos
             h1Nome.innerText = nomes[numeroSorteado];
             break;
-        case 9:
+        case 9:// posicao dos nomes que foram atribuidos
             h1Nome.innerText = nomes[numeroSorteado];
             break;
     
-            default://padrao texto sempre vai ser assim o recado
+            default://padrao texto sempre vai ser assim o recado na linha abaixo
                 h1Nome.innerText = " o numero sorteado nao tem na lista";
         
             h1Nome.innerText += " o numero sorteado foi:" + numeroSorteado;
