@@ -13,7 +13,7 @@ const sortear = () => {
             achouNumero = true; //definindo q achou o numero e verdadeiro 
         }
     }
-    // trocar os numeros sorteados
+    //Na linha abaixo vai acontecer um embaralhamento dos numeros assim os nomes que foram atribuidos pelo let vai ser correspondentes a posicoes que eles estao
     switch (numeroSorteado) {
         case 0:// caso o numero 0 e sorteado
             h1Nome.innerText = nomes[numeroSorteado];
