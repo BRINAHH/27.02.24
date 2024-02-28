@@ -1,10 +1,10 @@
 const sortear = () => {
     let nomes = ["Pocoyo","Elly","Pato","Loula","Sonequita","Soninho","Lagarta","Baleia","Octopus","Aliens"]
     //na linha acima esta atribuindo nomes 
-    let h1Nome = document.getElementById("nome"); // o ponto e o metodo;
+    let h1Nome = document.getElementById("nome");  //atribuindo nome ao documento de NOME
     
-    let achouNumero = false; // o let e quando some e nao fica no servidor;
-    let numeroSorteado;
+    let achouNumero = false; //atribuindo nome
+    let numeroSorteado; //atribuindo nome
     
     while (achouNumero == false) { //estrutura de repeticao WHILE) comparacao ==... atribuicao =;
         // comprando o achounumero com o falso, se repetindo, ise o numero sorteado e maior nomes 
