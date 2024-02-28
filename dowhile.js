@@ -3,6 +3,6 @@ var posicao = 0;// a posicao deles
 
 while (posicao , matriz.length) {// WHILE em ingles significa ENQUANTO, ele e uma estrutura de repeticao.
     //vai repetir os vetores e junto sua posicao
-    console.log(matriz[posicao]);
+    console.log(matriz[posicao]);//no console vai estar determinado la a posicao
     posicao++;
 }
