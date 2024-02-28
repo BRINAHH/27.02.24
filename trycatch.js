@@ -1,5 +1,6 @@
-const variaval1 = "valor somente leitura"; //declaracao de variavel valor somente da leitura e valor editavel
-var variaval2 = "valor editavel";
+const variaval1 = "valor somente leitura"; 
+//na linha acima esta constando/criando um valor fixo
+var variaval2 = "valor editavel";//aqui temos um valor que pode ser mudado
 
 try { //TENTANDO colocar valores na variavel1, e inprimindo no console o recado
     variaval1 = "valor nao permitido";
