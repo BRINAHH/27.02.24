@@ -12,6 +12,6 @@ try { //TENTANDO colocar valores na variavel1, e inprimindo no console o recado
 try {//TENTANDO colocar valores na variavel2, assim estara no console informacoes sobre o console
     variaval2 = "valor permitido";
     console.log(" a variavel2 foi alterada para:", variaval2);
-} catch (e) {
+} catch (e) {// colocar/pegar o recado no console 
     console.error("ops! ocorreu um erro:", e);
 }
