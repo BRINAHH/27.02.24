@@ -1,4 +1,4 @@
-const sortear = () => {
+const sortear = () => { //constantes para sortear os nomes abaixo
     let nomes = ["Pocoyo","Elly","Pato","Loula","Sonequita","Soninho","Lagarta","Baleia","Octopus","Aliens"]
     //na linha acima esta atribuindo nomes 
     let h1Nome = document.getElementById("nome");  //atribuindo nome ao documento de NOME
